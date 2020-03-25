@@ -89,14 +89,13 @@ h3 {
 }
 
 .overlay__hidden {
-   display: block; /* Switch this to make overlay's visible*/
+   display: none; /* Switch this to make overlay's visible*/
 }
 
 
 /* Overlay */
 .overlay__box {
    width: 45%;
-   height: 70vh;
    background-color: rgb(178, 197, 210);
    position: absolute;
    top: 50%;
